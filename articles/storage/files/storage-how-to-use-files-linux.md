@@ -64,7 +64,7 @@ sudo apt install cifs-utils
 ```
 # [RHEL](#tab/RHEL)
 
-Same applies for CentOS or Oracle Linux
+Same applies for Rocky, CentOS or Oracle Linux
 
 On Red Hat Enterprise Linux 8+ use the `dnf` package manager:
 
@@ -77,6 +77,8 @@ On older versions of Red Hat Enterprise Linux use the `yum` package manager:
 ```bash
 sudo yum install cifs-utils
 ```
+*Note: Rocky Linux builds from production-ready downstream version of Red Hat Enterprise Linux, starting version 8.4 onwards.*
+
 # [SLES](#tab/SLES)
 
 On SUSE Linux Enterprise Server, use the `zypper` package manager:
@@ -329,7 +331,7 @@ sudo apt install autofs
 ```
 # [RHEL](#tab/RHEL)
 
-Same applies for CentOS or Oracle Linux:
+Same applies for Rocky, CentOS or Oracle Linux:
 
 On Red Hat Enterprise Linux 8+,  use the `dnf` package manager:
 ```bash
@@ -341,6 +343,7 @@ On older versions of Red Hat Enterprise Linux, use the `yum` package manager:
 ```bash
 sudo yum install autofs
 ```
+*Note: Rocky Linux builds from production-ready downstream version of Red Hat Enterprise Linux, starting version 8.4 onwards.*
 
 # [SLES](#tab/SLES)
 
